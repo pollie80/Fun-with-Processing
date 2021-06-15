@@ -9,6 +9,7 @@ boolean towardsCenter = true;
 float topLeft[], w=20, h=20, offset=2;
 
 void setup(){
+  background(0);
   size(500, 500);
   distToCenter = height/2;
   topLeft = new float[]{width-w-offset, offset};
